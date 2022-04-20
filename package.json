@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng build ngx-charts && ng serve demo --port=3001",
+    "start": "npm run build-dependencies && ng serve demo --port=3001",
     "build": "ng build",
-    "deploy": "ng build ngx-charts && ng deploy --base-href=/ngx-charts/",
+    "build-dependencies": "ng build ngx-charts",
+    "deploy": "ng deploy --base-href=/ngx-charts/",
     "test": "ng test",
-    "test:prod": "ng build ngx-charts && ng test --browsers=ChromeHeadless --watch=false --code-coverage",
+    "test:prod": "npm run build-dependencies && ng test --browsers=ChromeHeadless --watch=false --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
