@@ -60,5 +60,9 @@ jobs:
           body: ${{ steps.changelog.outputs.clean_changelog }}
 
       - name: Deploy
-        run: |
-          npm run deploy --loglevel verbose
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.TOKEN_GITHUB_ACTION }}
+          publish_dir: dist/ngx-charts
+          enable_jekyll: true
