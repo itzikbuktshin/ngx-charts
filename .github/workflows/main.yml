@@ -44,7 +44,7 @@ jobs:
 
       - name: Build prod
         run: |
-          npm run buid
+          npm run build
 
       - name: Conventional Changelog Action
         id: changelog
