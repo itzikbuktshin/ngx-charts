@@ -6,7 +6,9 @@ describe('NgxBubbleChartService', () => {
   let service: NgxBubbleChartService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      providers:[NgxBubbleChartService]
+    });
     service = TestBed.inject(NgxBubbleChartService);
   });
 
