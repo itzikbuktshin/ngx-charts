@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NgxBubbleChartComponent } from './ngx-bubble-chart.component';
+import { NgxBubbleChartService } from './ngx-bubble-chart.service';
 
 describe('NgxBubbleChartComponent', () => {
   let component: NgxBubbleChartComponent;
@@ -8,9 +9,10 @@ describe('NgxBubbleChartComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgxBubbleChartComponent ]
+      declarations: [NgxBubbleChartComponent],
+      providers: [NgxBubbleChartService]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
