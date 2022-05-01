@@ -2,7 +2,7 @@
 
 [Please see here the Demo App](https://itzikbuktshin.github.io/ngx-charts/)
 
-##Description
+## Description
 This chart library is developed to share the idea how to build complex UI 
 Components with Angular using algorithms and data structures.
 
