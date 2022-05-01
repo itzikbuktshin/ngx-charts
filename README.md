@@ -1,4 +1,4 @@
-# NgxCharts is a chart library was written with Angular 10.x
+# NgxCharts is a library was written with Angular 10.x
 
 [Please see here the Demo App](https://itzikbuktshin.github.io/ngx-charts/)
 
