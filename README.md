@@ -7,7 +7,7 @@ This chart library is developed to share the idea how to build complex UI
 Components with Angular using algorithms and data structures.
 
 
-##Charts
+## Charts
 
 | Chart         | Description  |
 | ------------- | -------------|
